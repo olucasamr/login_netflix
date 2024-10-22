@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Title" content="Faça login e aproveite nosso catálogo de filmes e séries por um preço justo">
+    <meta name="Description" content="Está página é uma réplica da página de login da Netflix">
+    <link rel="icon" href="./assets/logowebp.webp">
+    <link rel="stylesheet" href="./style.css">
+    <title>Netflix</title>
+</head>
+<body>
+    
+    <div class="Container">
+       <div class="CapaEscura">
+            <header class="Cabecalho">
+                <img class="LogoNetflix" src="./assets/netflixlogo.png" alt="Logo Netflix">
+            </header>
+            <main class="FormContainer">
+                <form class="Formulario" action="" method="POST">
+                    <div class="TituloForm"><h2>Login</h2></div>
+
+                    <label class="UserLabel" for="User">
+                        <p class="PLabel">Email ou número de celular</p>
+                        <input id="User" type="text">
+                    </label>
+
+                    <label id="SecurityPass" class="UserLabel" for="Pass">
+                        <div>
+                            <p class="PLabel">Senha</p>
+                            <input id="Pass" type="password">
+                        </div>
+                        <div class="Visibility"></div>
+                    </label>
+
+                    <div class="EnterBtn">
+                        <p>Entrar</p>
+                    </div>
+
+                    <span class="Span1">OU</span>
+
+                    <div class="CodeBtn">
+                        <p>Usar um código de acesso</p>
+                    </div>  
+
+                    <a class="ResetPass" href="">Esqueceu a senha?</a>
+                    
+                    <div class="RememberMe">
+                        <input class="Check" type="checkbox">
+                        <p>Lembre-se de mim</p>  
+                    </div>
+
+                    <div class="NewUser">
+                        <p>Novo por aqui? <a class="Assine" href="">Assine agora</a></p>
+                    </div>
+
+                    <div class="ReCap">
+                        <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <span class="SaibaMais">Saiba mais</span>.</p>
+                    </div>
+
+                    <div class="ReCap">
+                    </div>
+                </form>
+            </main>
+
+            <footer class="Rodape">
+                <div class="Duvida">Dúvida ? Ligue 0800 000 0000</div>
+                <div class="ContainerRodape">
+                    <a class="LinkRodape" href="">Perguntas frequentes</a>
+                    <a class="LinkRodape" href="">Preferencias de Cookies</a>
+                    <a class="LinkRodape" href="">Central de ajuda</a>
+                    <a class="LinkRodape" href="">Informações corporativas</a>
+                    <a class="LinkRodape" href="">Termos de uso</a>
+                    <a class="LinkRodape" href="">Privacidade</a>
+                </div>
+            </footer>
+       </div>
+    </div>
+    <script src="./main.js" defer></script>
+</body>
+</html>
